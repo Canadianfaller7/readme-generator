@@ -19,7 +19,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation
-Install Node.js
+- Install Node.js
 
 ## Usage
 - After installing node, in terminal of file path type node index.js and it will start asking you questions for readme mock-up
