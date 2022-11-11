@@ -48,12 +48,12 @@ const questions = () => {
     },
     {
       type: 'input',
-      name: 'credits',
+      name: 'thirdParty',
       message: 'Did you use any third-party assets?'
     },
     {
       type: 'input',
-      name: 'credits',
+      name: 'tutorials',
       message: 'Did you follow any tutorials? Provide link here.'
     },
     {

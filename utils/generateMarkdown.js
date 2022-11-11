@@ -11,7 +11,7 @@
 // function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-const writeToFile = ({ projectTitle, description, description2, description3, description4, installation, usage, credits, license, liveRepo, screenshotName1, screenshotName2, screenshotName3, imageName1, imageName2, imageName3, github, email }) =>
+const writeToFile = ({ projectTitle, description, description2, description3, description4, installation, usage, credits, thirdParty, tutorials, license, liveRepo, screenshotName1, screenshotName2, screenshotName3, imageName1, imageName2, imageName3, github, email }) =>
   `# ${projectTitle}
 
 ## Description
@@ -21,7 +21,7 @@ const writeToFile = ({ projectTitle, description, description2, description3, de
 - ${description3}
 - ${description4}
 
-* [${projectTitle}](${liveRepo}/ "Named link title")
+* [${projectTitle}](https://${liveRepo}/ "Named link title")
 
 ## Table of Contents (Optional)
 
@@ -41,8 +41,8 @@ ${installation}
 
 ## Credits
 - ${credits}
-- ${credits}
-- ${credits}
+- ${thirdParty}
+- ${tutorials}
 
 
 ## License

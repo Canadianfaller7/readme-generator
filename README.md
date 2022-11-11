@@ -7,7 +7,7 @@
 - Answering questions and then putting your answers into a readme mock-up
 - How to use node and apply the promises module instead of using a callback with file system methods. How to export and import another js file and use it's methods 
 
-* [Readme Generator](github.com/Canadianfaller7/Readme-Creator/ "Named link title")
+* [Readme Generator](https://github.com/Canadianfaller7/Readme-Creator/ "Named link title")
 
 ## Table of Contents (Optional)
 
@@ -23,7 +23,7 @@ Install Node.js
 
 ## Usage
 - After installing node, in terminal of file path type node index.js and it will start asking you questions for readme mock-up
-* [Readme Generator](github.com/Canadianfaller7/Readme-Creator/ "Named link title")
+* [Readme Generator](https://github.com/Canadianfaller7/Readme-Creator/ "Named link title")
 
 ## Credits
 - N/A
@@ -37,13 +37,13 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshots
 
-- first-screenshot
+- first screenshot
 ![Alt text](./assets/images/first.png?raw=true "Optional Title")
 
-- second-screenshot
+- second screenshot
 ![Alt text](./assets/images/second.png?raw=true "Optional Title")
 
-- third-screenshot
+- third screenshot
 ![Alt text](./assets/images/third.png?raw=true "Optional Title")
 
 ## Questions
