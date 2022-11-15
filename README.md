@@ -47,6 +47,6 @@ Please refer to license page by clicking on the badge to learn more
 
 ## Questions
 
-- Github Profile: github.com/canadianfaller7
+- Github Profile: https://github.com/canadianfaller7
 - Please feel free to email me at:  canadianfaller7@gmail.com with any additional questions. 
 
