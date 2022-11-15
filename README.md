@@ -2,32 +2,33 @@
 
 ## Description
 
-- To not have to go into github and make a new readME file everytime making a new project
-- To make a quick and easy readME file from the terminal
-- Making a quick readME by asking some questions
-- I learned how to better use JavaScript and work with Node. I also learned how to use inquirer and also how to import and export other js files and use them within other js files.
+- Not having to type out an entire readme file
+- To be able to make it easier for people to make a quick readme file
+- Answering questions and then putting your answers into a readme mock-up
+- How to use node and apply the promises module instead of using a callback with file system methods. How to export and import another js file and use it's methods 
 
-* [Readme Generator](https://github.com/canadianfaller7/Readme-Creator/ "Named link title")
+* [Readme Generator](https://github.com/Canadianfaller7/Readme-Creator/ "Named link title")
 
 ## Table of Contents (Optional)
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Readme Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Screenshots](#screenshots)
+  - [Questions](#questions)
 
 ## Installation
-<<<<<<< HEAD
-- Node.js and inquirer@8.2.4
-=======
 - Install Node.js
->>>>>>> 43cc8a653842353b043cb6667a7650e3bc3e92b7
 
 ## Usage
-- From file path run 'node index.js' and then you will be asked questions and after you will get a readME.md file inside your local repo
-* [Readme Generator](github.com/canadianfaller7/Readme-Creator/ "Named link title")
+- After installing node, in terminal of file path type node index.js and it will start asking you questions for readme mock-up
+* [Readme Generator](https://github.com/Canadianfaller7/Readme-Creator/ "Named link title")
 
 ## Credits
 - N/A
@@ -41,17 +42,17 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshots
 
-- first-screenshot
+- first screenshot
 ![Alt text](./assets/images/first.png?raw=true "Optional Title")
 
-- second-screenshot
+- second screenshot
 ![Alt text](./assets/images/second.png?raw=true "Optional Title")
 
-- third-screenshot
+- third screenshot
 ![Alt text](./assets/images/third.png?raw=true "Optional Title")
 
 ## Questions
 
-- Github Profile: github.com/canadianfaller7
+- Github Profile: github.com/Canadianfaller7
 - Please feel free to email me at: canadianfaller7@gmail.com with any additional questions. 
 
