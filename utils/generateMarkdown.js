@@ -27,8 +27,8 @@ const renderLicenseSection = license => {
     return ''
   }
   else {
-    return `## License
-    - ${license} ${renderLicenseBadge(license)}, Please refer to license page by clicking on the badge to learn more.`
+    return `## License Please refer to license page by clicking on the badge to learn more
+  - ${renderLicenseBadge(license)}.`
   }
 }
 
