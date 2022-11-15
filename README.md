@@ -19,7 +19,11 @@ If your README is long, add a table of contents to make it easy for users to fin
 - [License](#license)
 
 ## Installation
+<<<<<<< HEAD
 - Node.js and inquirer@8.2.4
+=======
+- Install Node.js
+>>>>>>> 43cc8a653842353b043cb6667a7650e3bc3e92b7
 
 ## Usage
 - From file path run 'node index.js' and then you will be asked questions and after you will get a readME.md file inside your local repo
