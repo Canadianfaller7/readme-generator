@@ -1,8 +1,9 @@
 # Readme Generator
 - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-[Readme Generator Video](https://drive.google.com/file/d/1HUg5yKD9rBI9Zd70yVbp1YO3Q49QeO54/view "Named link title")
-![Alt text](./assets/readme-video.gif?raw=true "Optional Title")
+- [Readme Generator Video](https://drive.google.com/file/d/1HUg5yKD9rBI9Zd70yVbp1YO3Q49QeO54/view "Named link title")
+  
+  ![Alt text](./assets/readme-video.gif?raw=true "Optional Title")
 ## Description
 - Not have to write a readme in github
 - To make it easier to do a readme file from your terminal instead of online
