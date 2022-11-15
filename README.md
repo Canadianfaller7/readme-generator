@@ -1,7 +1,8 @@
 # Readme Generator
 - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
--[Reamde Video Demo](https://drive.google.com/file/d/1sWzdwYN9zdNcEazaFMquS-ldqHcebXNe/view/ "Named link title")
+-Readme video Demo
+* https://drive.google.com/file/d/1sWzdwYN9zdNcEazaFMquS-ldqHcebXNe/view
 
 ## Description
 - Not have to write a readme in github
