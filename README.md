@@ -7,7 +7,7 @@
 - Making a quick readme by answering questions
 - How to better use JavaScript data structures and how to import and export methods between files
 
-* [Readme Generator](https://github.com/canadianfaller7/Readme-Creator/ "Named link title")
+* [Readme Generator](https://github.com/canadianfaller7/readme-generator/ "Named link title")
 
 ## Table of Contents (Optional)
 
@@ -23,7 +23,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 - Run 'node index.js' in terminal and answer the questions
-* [Readme Generator](github.com/canadianfaller7/Readme-Creator/ "Named link title")
+* [Readme Generator](github.com/canadianfaller7/readme-generator/ "Named link title")
 
 ## Credits
 - N/A
