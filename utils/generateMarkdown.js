@@ -50,6 +50,7 @@ const renderLicenseSection = license => {
 // TODO: Create a function to generate markdown for README
 const writeToFile = ({ projectTitle, description, description2, description3, description4, installation, usage, credits, thirdParty, tutorials, license, liveRepo, screenshotName1, screenshotName2, screenshotName3, imageName1, imageName2, imageName3, github, email }) =>
   `# ${projectTitle}
+  ${renderLicenseBade(license)}
 
 ## Description
 
