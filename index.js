@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const markdown = require('./utils/generateMarkdown.js');
 const { writeFile } = require('fs').promises;
 const generateMarkdown = markdown;
+
 // TODO: Create an array of questions for user input
 const questions = () => {
   return inquirer.prompt([
@@ -96,22 +97,9 @@ const questions = () => {
       type: 'input',
       name: 'screenshotName2',
       message: 'Give description of second project screenshot'
-    },
-    {
-      type: 'input',
-      name: 'imageName3',
-      message: 'Provide screenshot of project and image name you want displayed third.'
-    },
-    {
-      type: 'input',
-      name: 'screenshotName3',
-      message: 'Give description of third project screenshot'
     }
   ])
 };
-
-// TODO: Create a function to write README file
-
 
 // TODO: Create a function to initialize app
 const init = () => {

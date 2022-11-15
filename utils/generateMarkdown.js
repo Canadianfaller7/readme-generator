@@ -18,7 +18,6 @@ const renderLicenseBadge = license => {
   
 }
 
-
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 // function renderLicenseSection(license) {}
@@ -34,7 +33,7 @@ Please refer to license page by clicking on the badge to learn more
 }
 
 // TODO: Create a function to generate markdown for README
-const writeToFile = ({ projectTitle, description, description2, description3, description4, installation, usage, credits, thirdParty, tutorials, license, liveRepo, screenshotName1, screenshotName2, screenshotName3, imageName1, imageName2, imageName3, github, email }) =>
+const writeToFile = ({ projectTitle, description, description2, description3, description4, installation, usage, credits, thirdParty, tutorials, license, liveRepo, screenshotName1, screenshotName2, imageName1, imageName2, github, email }) =>
   `# ${projectTitle}
 - ${renderLicenseBadge(license)}
 
@@ -77,15 +76,11 @@ ${renderLicenseSection(license)}
 - ${screenshotName2}
 ![Alt text](./assets/images/${imageName2}.png?raw=true "Optional Title")
 
-- ${screenshotName3}
-![Alt text](./assets/images/${imageName3}.png?raw=true "Optional Title")
-
 ## Questions
 
 - Github Profile: https://github.com/${github}
 - Please feel free to email me at: ${email} with any additional questions. 
 
 `;
-
 
 module.exports = writeToFile;
