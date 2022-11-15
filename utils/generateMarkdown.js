@@ -82,7 +82,7 @@ ${renderLicenseSection(license)}
 
 ## Questions
 
-- Github Profile: github.com/${github}
+- Github Profile: https://github.com/${github}
 - Please feel free to email me at: ${email} with any additional questions. 
 
 `;
