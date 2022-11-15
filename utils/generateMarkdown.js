@@ -17,23 +17,6 @@ const renderLicenseBadge = license => {
   
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-const renderLicenseLink = license => {
-  if (license === 'MIT') {
-    return 'https://opensource.org/licenses/MIT'
-  }
-  else if (license === 'Apache License 2.0') {
-    return 'https://opensource.org/licenses/Apache-2.0'
-  }
-  else if (license === 'GNU General Public License v3.0') {
-    return 'https://www.gnu.org/licenses/gpl-3.0'
-  }
-  else {
-    return ''
-  }
-}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -43,14 +26,16 @@ const renderLicenseSection = license => {
     return ''
   }
   else {
-    return `${license}`
+    return `
+    ## License
+    - ${license}, Please refer to the LICENSE in the repo.`
   }
 }
 
 // TODO: Create a function to generate markdown for README
 const writeToFile = ({ projectTitle, description, description2, description3, description4, installation, usage, credits, thirdParty, tutorials, license, liveRepo, screenshotName1, screenshotName2, screenshotName3, imageName1, imageName2, imageName3, github, email }) =>
   `# ${projectTitle}
-  ${renderLicenseBade(license)}
+  ${renderLicenseBadge(license)}
 
 ## Description
 
@@ -83,8 +68,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 - ${tutorials}
 
 
-## License
-- ${license}, Please refer to the LICENSE in the repo.
+${renderLicenseSection(license)}
 
 ## Screenshots
 
