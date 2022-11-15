@@ -84,8 +84,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 
 ## License
-${license}
-Please refer to the LICENSE in the repo.
+- ${license}, Please refer to the LICENSE in the repo.
 
 ## Screenshots
 
