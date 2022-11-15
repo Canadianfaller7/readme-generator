@@ -13,10 +13,15 @@
 
 If your README is long, add a table of contents to make it easy for users to find what they need.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Readme Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents (Optional)](#table-of-contents-optional)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Credits](#credits)
+  - [License](#license)
+  - [Screenshots](#screenshots)
+  - [Questions](#questions)
 
 ## Installation
 - Install node.js to computer and create your package.json files by doing 'npm init -y' and 'npm i inquirer@8.2.4'
@@ -37,9 +42,11 @@ Please refer to license page by clicking on the badge to learn more
 ## Screenshots
 
 - Questions Screenshot
+  
 ![Alt text](./assets/images/questions.png?raw=true "Optional Title")
 
 - Readme Screenshot
+  
 ![Alt text](./assets/images/readme.png?raw=true "Optional Title")
 
 ## Questions
