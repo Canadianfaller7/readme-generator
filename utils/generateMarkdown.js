@@ -71,9 +71,11 @@ ${renderLicenseSection(license)}
 ## Screenshots
 
 - ${screenshotName1}
+
 ![Alt text](./assets/images/${imageName1}.png?raw=true "Optional Title")
 
 - ${screenshotName2}
+
 ![Alt text](./assets/images/${imageName2}.png?raw=true "Optional Title")
 
 ## Questions
