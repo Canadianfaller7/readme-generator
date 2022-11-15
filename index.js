@@ -57,9 +57,10 @@ const questions = () => {
       message: 'Did you follow any tutorials? Provide link here.'
     },
     {
-      type: 'input',
+      type: 'list',
       name: 'license',
-      message: 'What License did you use?'
+      message: 'What License did you use?',
+      choices: ['No License', 'MIT', 'Apache License 2.0', 'GNU General Public License v3.0']
     },
     {
       type: 'input',
