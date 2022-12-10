@@ -2,8 +2,8 @@
 // If there is no license, return an empty string
 // function renderLicenseBadge(license) {}
 const renderLicenseBadge = license => {
+  let badge;
   if (license === 'MIT') {
-    let badge;
     return badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
   }
   else if (license === 'Apache License 2.0') {

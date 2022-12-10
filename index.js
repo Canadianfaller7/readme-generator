@@ -101,7 +101,6 @@ const questions = () => {
   ])
 };
 
-// TODO: Create a function to initialize app
 const init = () => {
   questions()
     .then((answers) => writeFile('README.md', generateMarkdown(answers)))
